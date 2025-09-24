@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.snap-x::-webkit-scrollbar {
+  display: none;
+}
+
+.snap-x {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
