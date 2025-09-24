@@ -415,13 +415,15 @@ export default function LaunchKitLanding() {
 
       {showUpsell ? (
         <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-[#060B19]/80 px-3 py-4 backdrop-blur-md sm:px-4 sm:py-10"
+          className="fixed inset-0 z-[100] flex items-start justify-center bg-[#060B19]/80 px-3 py-6 backdrop-blur-md sm:items-center sm:px-4 sm:py-10"
           onClick={closeUpsell}
         >
           <div
             className="relative w-full max-w-3xl overflow-hidden rounded-3xl border border-yellow-400/30 bg-[#0B1532] p-6 shadow-[0_35px_85px_-40px_rgba(8,9,27,1)] sm:p-8"
             onClick={(event) => event.stopPropagation()}
+            style={{ maxHeight: "90vh" }}
           >
+            <div className="max-h-[90vh] overflow-y-auto pr-2 sm:pr-0">
             <button
               type="button"
               onClick={closeUpsell}
@@ -474,6 +476,7 @@ export default function LaunchKitLanding() {
                 </a>
               </div>
               <p className="text-xs uppercase tracking-[0.3em] text-yellow-200/70">Instant access · cancel anytime</p>
+            </div>
             </div>
           </div>
         </div>
