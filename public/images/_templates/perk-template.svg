@@ -1,0 +1,10 @@
+<svg width="640" height="520" viewBox="0 0 640 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="520" rx="48" fill="#0F172A"/>
+  <rect x="32" y="32" width="576" height="360" rx="32" fill="#111C32" stroke="#F59E0B" stroke-dasharray="12 10" stroke-width="3"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="32" font-weight="700" fill="#FDE68A">
+    Perk visual
+  </text>
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" fill="#E5E7EB">
+    640×520 • toolkit / course thumbnail
+  </text>
+</svg>

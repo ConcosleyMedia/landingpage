@@ -1,0 +1,10 @@
+<svg width="640" height="720" viewBox="0 0 640 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="720" rx="48" fill="#0F172A"/>
+  <rect x="32" y="32" width="576" height="504" rx="32" fill="#1E293B" stroke="#60A5FA" stroke-dasharray="12 10" stroke-width="3"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="36" font-weight="700" fill="#BFDBFE">
+    Module visual
+  </text>
+  <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="20" fill="#E2E8F0">
+    640×720 • workflow screenshot or mockup
+  </text>
+</svg>
